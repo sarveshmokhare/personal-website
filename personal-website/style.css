@@ -222,60 +222,74 @@ h1 {
   width: 40%;
 }
 
-#interests {
+#projects {
   height: 50rem;
 }
 
-#interests h1 {
+#projects h1 {
   padding: 6rem 2rem 2rem;
   font-size: 5rem;
   color: #00aee0;
 }
 
-.coding {
-  height: 20rem;
-  display: inline-block;
-}
-
-.interest1 {
+.project1 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 5rem;
+  padding: 0 5rem 8rem 5rem;
 }
 
-.interest1-content {
+.project1-img {
+  width: 25rem;
+  display: inline-block;
+}
+
+.project1-content {
   text-align: left;
   padding: 0 4rem;
-  font-size: 2rem;
 }
 
-.interest1-content h3 {
+
+.project1-content h3 {
   color: #00aee0;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.project1-content p {
+  font-size: 1.5rem;
 }
 
-.interest2 {
+.project2 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0 5rem;
 }
 
-.interest2-content {
-  text-align: right;
-  padding: 0 4rem;
-  font-size: 2rem;
+.project2-img {
+  width: 25rem;
+  display: inline-block;
 }
 
-.interest2-content h3 {
+.project2-content {
+  text-align: right;
+  padding: 0 4rem;
+}
+
+.project2-content h3 {
   color: #00aee0;
+  font-size: 3rem;
+  font-weight: 100;
+}
+.project2-content p {
+  font-size: 1.5rem;
 }
 
 .swim-content {
   position: relative;
 }
 
-.interest2-content hr {
+.project2-content hr {
   border: 0px solid #00aee0;
   height: 3px;
   background: #00aee0;
@@ -490,35 +504,35 @@ footer a {
     height: 20rem;
   }
 
-  #interests {
+  #projects {
     height: 59rem;
   }
 
-  #interests h1 {
+  #projects h1 {
     padding: 0 0 1rem;
     font-size: 4rem;
   }
 
-  .interest1 {
+  .project1 {
     flex-direction: column;
     padding: 0;
   }
-  .interest1-content {
+  .project1-content {
     text-align: center;
     padding: 0;
   }
   .coding {
     height: 18rem;
   }
-  .interest2 {
+  .project2 {
     flex-direction: column-reverse;
     padding: 0;
   }
-  .interest2-content {
+  .project2-content {
     text-align: center;
     padding: 0;
   }
-  .interest2-content hr{
+  .project2-content hr{
       position: relative;
       margin: auto;
       width: 40%;
